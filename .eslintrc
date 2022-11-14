@@ -1,0 +1,15 @@
+{
+    "extends": "airbnb",
+    "rules": {
+        "semi": ["warn", "never"],
+        "eol-last": ["error", "never"],
+        "quotes": "off",
+        "func-names": ["error", "never"]
+    },
+    "globals": {
+      "window": true,
+      "document": true,
+      "HTMLElement": true,
+      "customElements": true
+    }
+}

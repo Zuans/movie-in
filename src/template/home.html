@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style/style.css">
+<link rel="stylesheet" href="./style/footer.css">
+<link rel="stylesheet" href="./style/hero.css">
+<link rel="stylesheet" href="./style/movie-result.css">
+<link rel="stylesheet" href="./style/movie-list.css">
+</head>
+<body>
+    <header >
+        <nav class="container">
+            <h2 class="nav-page">Home</h2>
+            <h1 class="navbrand">MovieIn</h1>
+            <div class="search-wrapper">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                <input type="text" name="" placeholder="Search Movie" class="search-input" id="search-input-nav">
+            </div>
+        </nav>
+    </header>
+    <section  id="hero">
+        <img src="../img/wall.png" alt="" class="hero-img">
+        <div class="container">
+            <h2 class="popular">Most popular now</h2>
+            <h1 class="movie-title">Your Name</h1>
+            <div class="movie-info">
+                <p class="rating font-medium">8.50</p>
+                <p class="duration font-medium">120 Mins</p>
+            </div>
+            <button class="btn-detail font-medium">Detail</button>
+        </div>
+    </section>
+    <section id="movie-result">
+        <i class="fa-solid fa-chevron-left icon icon-left"></i>
+            <ul class="movie-list-side font-medium">
+                <li class="movie-list-item">
+                    <img src="../img/jujutsu.jpeg" alt="Anoerh" class="movie-img">
+                    <div class="movie-info">
+                        <p class="movie-popular">#2 Popular now</p>
+                        <p class="movie-title">Sao Progressive</p>
+                        <div class="rating-and-duration flex">
+                            <p class="rating"><i class="fa-solid fa-star icon-star"> </i>8.50</p>
+                            <p class="duration">120 Mins</p>
+                        </div>
+                        <div class="genre-list flex">
+                            <p class="genre">Romance</p>
+                            <p class="genre">Supranatural</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="movie-list-item">
+                    <img src="../img/jujutsu.jpeg" alt="Anoerh" class="movie-img">
+                </li>
+                <li class="movie-list-item">
+                    <img src="../img/jujutsu.jpeg" alt="Anoerh" class="movie-img">
+                </li>
+            </ul>
+    </section>
+    <section id="movies-list" class="container">
+        <div id="other-popular" class="movie-list">
+            <h1 class="title-section">Other Popular Movies</h1>
+            <div class="movie-list-container">
+                <div class="movie-card">
+                   <p class="rating font-medium">8.5</p>
+                    <img src="../img/sao-progrresibe.jpg" alt="" class="img-movie">
+                    <p class="movie-title font-medium">Weathering with you</p>
+                    <p class="year">( 2012 )</p>
+                </div>
+                <div class="movie-card">
+                   <p class="rating font-medium">8.5</p>
+                    <img src="../img/sao-progrresibe.jpg" alt="" class="img-movie">
+                    <p class="movie-title font-medium">Weathering with you</p>
+                    <p class="year">( 2012 )</p>
+                </div>
+                <div class="movie-card">
+                    <p class="rating font-medium">8.5</p>
+                     <img src="../img/sao-progrresibe.jpg" alt="" class="img-movie">
+                     <p class="movie-title font-medium">Weathering with you</p>
+                     <p class="year">( 2012 )</p>
+                 </div>
+            </div>
+        </div>
+        <div id="trending-week" class="movie-list">
+            <h1 class="title-section">Trending of the Week</h1>
+            <div class="movie-list-container">
+                <div class="movie-card">
+                   <p class="rating font-medium">8.5</p>
+                    <img src="../img/sao-progrresibe.jpg" alt="" class="img-movie">
+                    <p class="movie-title font-medium">Weathering with you</p>
+                    <p class="year">( 2012 )</p>
+                </div>
+                <div class="movie-card">
+                   <p class="rating font-medium">8.5</p>
+                    <img src="../img/sao-progrresibe.jpg" alt="" class="img-movie">
+                    <p class="movie-title font-medium">Weathering with you</p>
+                    <p class="year">( 2012 )</p>
+                </div>
+                <div class="movie-card">
+                    <p class="rating font-medium">8.5</p>
+                     <img src="../img/sao-progrresibe.jpg" alt="" class="img-movie">
+                     <p class="movie-title font-medium">Weathering with you</p>
+                     <p class="year">( 2012 )</p>
+                 </div>
+            </div>
+            
+        </div>
+    </section>
+    
+    <script src="../script/utils/side-movie.js"></script>
+    <script src="../script/utils/nav.js"></script>
+</body>
+</html>
